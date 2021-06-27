@@ -1,3 +1,16 @@
+in this subtask it was asked to design a circuit that controls the rotation of a 5 servo motors using a potentiometer.
+
+please click on this link to view the screanshoot of the circuit  { https://prnt.sc/17204k8 } 
+
+
+
+
+
+
+
+
+and here is the arduino code used:
+
 #include <Servo.h>
 int x=0;
 Servo ser;
