@@ -1,0 +1,18 @@
+in this subtask it was asked to design a circuit that rotates 5 servo motors by a 90 degrees.
+
+pleases click on this link to view the circuit used in the design https://prnt.sc/1720yr2
+
+and here is the arduieno code:
+
+#include <Servo.h>
+int x=0;
+Servo ser;
+void setup() 
+{
+  ser.attach(12);
+}
+void loop()
+{
+  x=90;
+  ser.write(x);
+}
