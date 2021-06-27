@@ -1,0 +1,12 @@
+#include <Servo.h>
+int x=0;
+Servo ser;
+void setup() 
+{
+  ser.attach(12);
+}
+void loop()
+{
+  x=90;
+  ser.write(x);
+}
